@@ -1,0 +1,7 @@
+services:
+    wvs_core.entity_helper:
+        class: Wvs\CoreBundle\Helper\EntityHelper
+        arguments: [@jms_serializer]
+    wvs_core.database_helper:
+        class: Wvs\CoreBundle\Helper\DatabaseHelper
+        arguments: [@doctrine]
