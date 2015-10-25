@@ -20,6 +20,6 @@
     "autoload": {
         "psr-4": { "Wvs\\CoreBundle\\": "" }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
